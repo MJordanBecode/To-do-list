@@ -1,0 +1,135 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 481px) {
+  body main article {
+    height: auto;
+    background: linear-gradient(153deg, rgb(0, 103, 79) 0%, rgb(40, 156, 187) 50%, rgb(51, 20, 66) 100%);
+    width: 98%;
+    margin-left: 0.5%;
+    border: solid 1px black;
+    border-radius: 15px;
+    padding-bottom: 8%;
+    margin-top: 3%;
+  }
+  body main article .div-h2 {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 4%;
+    margin-bottom: 3%;
+  }
+  body main article .container_input {
+    display: flex;
+    margin-left: 24%;
+    margin-bottom: 5%;
+  }
+  body main article #text {
+    border-radius: 14px;
+    padding-right: 18%;
+    margin-left: 13%;
+  }
+  body main article #Submit {
+    background-image: url("https://cdn.discordapp.com/attachments/1234441354751512597/1234445734082908210/checked1.png?ex=6630c2ad&is=662f712d&hm=42f5fc3e30cc358ef4b7ba3290595daf48837f218b76763563ad0c289f105ab7&");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center left; /* Ajuste la position de l'icône */
+    padding-right: 22px; /* Ajuste l'espace à droite de l'icône */
+    border: none;
+    background-color: none;
+    border-radius: 18px;
+    padding-left: 0px;
+    margin-left: 1%;
+  }
+  body main article .check {
+    display: flex;
+    margin-left: 1%;
+  }
+  body main article .check .image-check {
+    width: 35%;
+  }
+  body main article .container-li .divContainerLiImg {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+  body main article .container-li .divContainerLiImg .delete-img {
+    width: 3%;
+  }
+  body main article .container-li .divContainerLiImg .liDesign {
+    padding-right: 75%;
+    display: inline-block;
+    list-style: none;
+    margin-left: 2%;
+    border: solid 1px black;
+    border-radius: 35px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  body main article .container-li .divContainerLiImg .liDesign .img-delete {
+    background-color: red;
+  }
+}
+@media screen and (max-width: 480px) {
+  body main article {
+    height: auto;
+    background: linear-gradient(153deg, rgb(0, 103, 79) 0%, rgb(40, 156, 187) 50%, rgb(51, 20, 66) 100%);
+    width: 98%;
+    margin-left: 0.5%;
+    border: solid 1px black;
+    border-radius: 15px;
+    padding-bottom: 8%;
+    margin-top: 3%;
+  }
+  body main article .div-h2 {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 4%;
+    margin-bottom: 3%;
+  }
+  body main article .container_input {
+    display: flex;
+    margin-left: 24%;
+    margin-bottom: 5%;
+  }
+  body main article #text {
+    border-radius: 15px;
+  }
+  body main article #Submit {
+    background-image: url("https://cdn.discordapp.com/attachments/1234441354751512597/1234445734082908210/checked1.png?ex=6630c2ad&is=662f712d&hm=42f5fc3e30cc358ef4b7ba3290595daf48837f218b76763563ad0c289f105ab7&");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center left; /* Ajuste la position de l'icône */
+    padding-right: 22px; /* Ajuste l'espace à droite de l'icône */
+    border: none;
+    background-color: none;
+    border-radius: 18px;
+    padding-left: 0px;
+    margin-left: 1%;
+  }
+  body main article .check {
+    display: flex;
+    margin-left: 1%;
+  }
+  body main article .check .image-check {
+    width: 35%;
+  }
+  body main article .container-li .divContainerLiImg {
+    margin-bottom: 9%;
+  }
+  body main article .container-li .divContainerLiImg .liDesign {
+    display: inline;
+    list-style: none;
+    margin-left: 2%;
+    border: solid 1px black;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-bottom: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+}
